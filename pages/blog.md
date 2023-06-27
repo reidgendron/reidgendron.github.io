@@ -1,6 +1,6 @@
 ---
-permalink: /
-layout: base
+permalink: /blog
+layout: layout
 ---
 
 <ul>
