@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 
         <title>Reid Gendron</title>
-        <meta name="description" content="Reid Gendron's Homepage"/>
+        <meta name="description" content="Reid Gendron | Homepage"/>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     </head>
     <body>
-        <h1>Reid Gendron's Homepage</h1>
-         <p>&copy; 2023 Reid Gendron</p>
-   </body>
+        <h1>Homepage</h1>
+        {% include nav.html %}
+        {{ content }}
+        <p>&copy; 2023 Reid Gendron</p>
+    </body>
 </html>
