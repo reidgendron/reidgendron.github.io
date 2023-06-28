@@ -1,6 +1,6 @@
 ---
 permalink: /blog
-layout: layout
+layout: base
 ---
 
 <ul>

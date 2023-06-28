@@ -1,9 +1,23 @@
 ---
 permalink: /portfolio
-layout: layout
+layout: base
+title: PORTFOLIO
 ---
 
-<div id="container">
-  <h1>Portfolio</h1>
-  <p><strong>Empty page.</strong></p>
+<link rel="stylesheet" type="text/css" href="/assets/css/portfolio.css">
+
+<div id="projects" class="grid">
+    {% for project in site.data.projects %}
+    <div class="card">
+        <div id="{{ project.id }}" class="card-content">
+            <a class="project-button" href="{{ project.link }}"><b>{{ project.title }}</b></a>
+            <p style="color: {{ project.color }}" class="project-status">{{ project.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    {% for i in (1..4) %}
+    <div class="card-empty">
+        <div class="card-content"></div>
+    </div>
+    {% endfor %}
 </div>

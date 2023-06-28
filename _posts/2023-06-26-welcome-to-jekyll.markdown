@@ -2,7 +2,7 @@
 title:  "Welcome to Jekyll!"
 date:   2023-06-26 19:07:06 -0700
 categories: jekyll update
-layout: layout
+layout: base
 ---
 [< back](/)
 

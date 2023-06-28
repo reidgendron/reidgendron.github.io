@@ -1,0 +1,130 @@
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* define the number of grid columns */
+    width: 100%;
+    margin: 0;
+}
+
+.card {
+    position: relative;
+    height: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    z-index: 1;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.9);
+}
+
+.card-empty {
+    position: relative;
+    height: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.card-content {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card-content a {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.card-content b {
+    width: 90%;
+    line-height: 1.3em;
+}
+
+#github {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.9), rgba(29, 25, 22, 1)), url("/assets/images/github.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+#crypto {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/crypto.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+#shiny-dashboard {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9));
+    background-position: top;
+    background-size: cover;
+}
+
+#property-manager {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/property.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+#flask-portfolio {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/welcome-background.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+#puzzle-game {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/puzzle.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+
+#vancouver {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/vancouver.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+/* #multimeter {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.7), rgba(29, 25, 22, 0.9)), url("../assets/images/multimeter.png");
+    background-position: top;
+    background-size: cover;
+} */
+
+#colour-prediction {
+    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/colours.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.project-button {
+    font-size: 10pt;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.4s ease;
+}
+
+.project-button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+.project-status {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin-top: 2em;
+    font-size: 10pt;
+}

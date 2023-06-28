@@ -1,0 +1,44 @@
+[
+    {
+        "id": "github",
+        "title": "GitHub",
+        "link": "https://github.com/reidgendron",
+        "description": "@reidgendron",
+        "color": "orange"
+    },
+    {
+        "id": "flask-portfolio",
+        "title": "Portfolio Web Application",
+        "link": "/",
+        "description": "live app",
+        "color": "lightgreen"
+    },
+    {
+        "id": "colour-prediction",
+        "title": "Colour Classification with Machine Learning",
+        "link": "/colours_ml",
+        "description": "live app",
+        "color": "lightgreen"
+    },
+    {
+        "id": "vancouver",
+        "title": "Vancouver Airbnb Neighbourhoods Analysis",
+        "link": "https://reidgendron.github.io/airbnb-analysis/",
+        "description": "in progress",
+        "color": "yellow"
+    },
+    {
+        "id": "puzzle-game",
+        "title": "3D Puzzle Game for iOS",
+        "link": "/contact",
+        "description": "source code upon request",
+        "color": "white"
+    },
+    {
+        "id": "property-manager",
+        "title": "Property Management Dashboard",
+        "link": "/contact",
+        "description": "source code upon request",
+        "color": "white"
+    }
+]

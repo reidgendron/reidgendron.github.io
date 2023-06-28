@@ -1,0 +1,12 @@
+#contact { 
+    margin-top: -10vh;
+    line-height: 1em;
+    padding: 2em;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
+}
+
+#contact-header {
+    line-height: 1.5em;
+}

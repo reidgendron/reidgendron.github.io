@@ -5,10 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 
-        <title>Reid Gendron</title>
-        <meta name="description" content="Reid Gendron | Homepage"/>
+        <title>{{ site.title }}</title>
+        <meta property="og:title" content="{{ site.title }}"/>
+        <meta name="description" content="{{ site.description }}"/>
+        <meta property="og:description" content="{{ site.description }}"/>
+        <meta property="og:image" content="/assets/images/welcome-background.jpg"/>
 
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <script src="/assets/js/layout.js"></script>
     </head>
     <body>
         {% include header.html %}
