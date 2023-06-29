@@ -16,7 +16,7 @@
     {
         "id": "colour-prediction",
         "title": "Colour Classification with Machine Learning",
-        "link": "https://rgendron.pythonanywhere.com/colours_ml",
+        "link": "https://reidgendron.github.io/colour-prediction/",
         "description": "live app",
         "color": "lightgreen"
     },
