@@ -53,7 +53,7 @@ h1 {
     background-color: var(--background);
     opacity: 0.9;
     transition: 0.3s ease;
-    /* border-bottom: 2px solid #5B8E7DAF; */
+    /* border-top: 3px solid var(--primary); */
 }
 @media only screen and (max-width: 600px) {
     #header {
