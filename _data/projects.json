@@ -7,16 +7,9 @@
         "color": "orange"
     },
     {
-        "id": "flask-portfolio",
-        "title": "Portfolio Website",
-        "link": "/",
-        "description": "live",
-        "color": "lightgreen"
-    },
-    {
         "id": "colour-prediction",
         "title": "Colour Classification with Machine Learning",
-        "link": "https://reidgendron.github.io/colour-prediction/",
+        "link": "/project",
         "description": "live",
         "color": "lightgreen"
     },

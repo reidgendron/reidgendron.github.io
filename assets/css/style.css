@@ -2,6 +2,7 @@
     --primary: #627A8D;
     --secondary: #1B2026;
     --background: white;
+    --shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   }
 
 * {
@@ -44,7 +45,7 @@ h1 {
     position: sticky;
     top: 0;
     left: 0;
-    height: 9vh;
+    height: 8vh;
     z-index: 3;
     display: flex;
     flex-wrap: column wrap;
@@ -102,14 +103,14 @@ h1 {
     transform: scaleX(0.7);
   }
   
-.page {
+.section {
     position: relative;
     display: flex;
     flex-wrap: column;
     justify-content: center;
     align-items: center;
     width: inherit;
-    min-height: 91vh;
+    min-height: 92vh;
     line-height: 2em;
     text-align: center;
     padding: 5em 3em;
@@ -142,21 +143,18 @@ h1 {
 
 .container {
     position: relative;
-    max-width: 90%;
+    width: 90%;
     margin: 1em;
     padding: 0.1em 1em 0.1em 1em;
-    color: black;
-    background-color: var(--background);
+    color: var(--primary);
     opacity: 0.9;
-    border-radius: 20px;
-    box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.25);
-}
-.container a {
-    font-size: 9pt;
+    text-align: left;
+    border-radius: 1rem;
+    /* background-color: var(--background); */
+    /* box-shadow: var(--shadow); */
 }
 .container p {
-    margin-left: 10px;
-    text-align: left;
+    color: black;
     line-height: 2em;
 }
 
@@ -165,6 +163,7 @@ h1 {
     text-decoration: none;
     padding: 0.5em 1em;
     color: white;
+    background-color: var(--secondary);
     border: 1px solid white;
     border-radius: 20px;
     box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
@@ -181,10 +180,12 @@ h1 {
     font-size: 10pt;
     text-decoration: none;
     padding: 0.5em 1em;
+    min-width: 6rem;
+    text-align: center;
     color: white;
     margin: 1em;
     background-color: var(--primary);
-    box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
+    box-shadow: var(--shadow);
     border-radius: 20px;
     transition: 0.3s ease;
 }

@@ -30,6 +30,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-flow: row wrap;
+    flex-grow: 1;
 }
 
 .card-content a {
@@ -40,6 +41,7 @@
     align-items: center;
     justify-items: center;
     align-content: center;
+    flex-grow: 1;
 }
 
 .card-content b {
@@ -53,17 +55,11 @@
     background-size: cover;
 }
 
-#crypto {
+/* #crypto {
     background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/crypto.jpg");
     background-position: top;
     background-size: cover;
-}
-
-#shiny-dashboard {
-    background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9));
-    background-position: top;
-    background-size: cover;
-}
+} */
 
 #property-manager {
     background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/property.jpg");
@@ -71,11 +67,11 @@
     background-size: cover;
 }
 
-#flask-portfolio {
+/* #flask-portfolio {
     background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/welcome-background.jpg");
     background-position: top;
     background-size: cover;
-}
+} */
 
 #puzzle-game {
     background-image: radial-gradient(rgba(29, 25, 22, 0.6), rgba(29, 25, 22, 0.9)), url("/assets/images/puzzle.jpeg");

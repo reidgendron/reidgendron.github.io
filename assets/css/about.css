@@ -1,0 +1,33 @@
+#services li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 4em;
+    font-size: 11pt;
+    padding: 1.5em;
+    border-radius: 3em;
+    background-color: var(--background);
+    opacity: 0.9;
+    box-shadow: var(--shadow);
+}
+.services-icons {
+    width: 30px;
+    height: auto;
+}
+.icon {
+    gap: 0.5rem;
+}
+
+#tools li {
+    display: flex;
+    margin: 1.7rem;
+    padding: 1.5em;
+    opacity: 0.9;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    background-color: var(--background);
+}
+#tools img {
+    width: 70px;
+}
