@@ -9,28 +9,28 @@
     {
         "id": "colour-prediction",
         "title": "Colour Classification with Machine Learning",
-        "link": "/project",
+        "link": "/project?id=colour-prediction",
         "description": "live",
         "color": "lightgreen"
     },
     {
         "id": "vancouver",
         "title": "Vancouver Airbnb Neighbourhoods Analysis",
-        "link": "https://reidgendron.github.io/airbnb-analysis/",
+        "link": "/project?id=airbnb-analysis",
         "description": "in progress",
         "color": "yellow"
     },
     {
         "id": "property-manager",
         "title": "Property Management Dashboard",
-        "link": "/contact",
+        "link": "contact",
         "description": "source code upon request",
         "color": "white"
     },
     {
         "id": "puzzle-game",
         "title": "3D Puzzle Game for iOS",
-        "link": "/contact",
+        "link": "contact",
         "description": "source code upon request",
         "color": "white"
     }

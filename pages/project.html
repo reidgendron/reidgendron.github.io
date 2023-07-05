@@ -4,21 +4,24 @@ layout: base
 title: PORTFOLIO
 ---
 
-<style type="text/css" media="screen">
-    html, body {
-        overflow: hidden;
-    }
-    #header {
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    }
-</style>
+<script>
+    url = new URL(window.location.href);
+
+    if (url.searchParams.has('id')) {
+        window.onload = function() {
+            var link = "https://rgendron.ca/" + url.searchParams.get('id');
+            document.getElementById('frame').src = link;
+        };
+    };
+</script>
+
 
 <div class="section" style="padding: 0;">
     <iframe
-        src="https://rgendron.ca/colour-prediction"
+        id="frame"
         allowTransparency="true"
         scrolling="yes"
         frameborder="0"
-        style="width: 100%; height: 100vh; margin-top: -14vh;"
-    ></iframe>
+        style="width: 100%; height: 92vh;">
+    </iframe>
 </div>
